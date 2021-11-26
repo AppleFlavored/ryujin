@@ -1,0 +1,9 @@
+[package]
+name = "ryujin"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+xcb = { git = "https://github.com/rust-x-bindings/rust-xcb", branch = "v1.0-dev", features = ["xkb"] }
+xcb-util = "0.4.0"
+xdg = "2.4.0"
